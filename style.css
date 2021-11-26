@@ -1,0 +1,121 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.product-sale {
+  width: 460px;
+  border: 1px solid #f1f1f1;
+  margin: 50px auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.product-sale.hide{
+  display: none;
+}
+.product-img {
+  position: relative;
+}
+.product-img img:first-child {
+  display: block;
+  width: 100%;
+}
+.product-img img:nth-child(2) {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  bottom: -20px;
+  right: 20px;
+  background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+.product-info {
+  padding: 30px;
+}
+.product-title h3 {
+  font-size: 20px;
+  color: #555555;
+}
+.product-title div {
+  font-size: 15px;
+  color: #9a9a9a;
+  letter-spacing: 2px;
+  margin: 10px 0 15px 0;
+}
+.product-title div img {
+  width: 14px;
+  margin-right: 5px;
+}
+.product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 15px 0;
+  color: #555555;
+}
+.product-category {
+  color: #555555;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.product-category span {
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+}
+.product-category span span {
+  background-color: #ffd205;
+  color: #fff;
+  padding: 1px 8px;
+  border-radius: 10px;
+  letter-spacing: 4px;
+  font-size: 10px;
+  margin-left: 8px;
+}
+.product-price {
+  color: #555555;
+  font-size: 25px;
+}
+.product-description {
+  color: #9a9a9a;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 20px 0;
+}
+.product-book {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 14px;
+  padding: 10px 20px;
+  background-color: #ffd205;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.product-book:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+.toggle-btn{
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding: 30px 60px;
+  border: none;
+  outline: none;
+  background-color: lightblue;
+  border-radius: 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+.toggle-btn:hover{
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
